@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="370dp"
+        android:layout_height="461dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
+        android:src="@drawable/ic_baseline_camera_24" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="119dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="36dp"
+        android:backgroundTint="@color/white"
+        android:text="select"
+        android:textColor="#4CAF50"
+        app:cornerRadius="30dp"
+        app:iconTint="#00FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.708"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:rippleColor="#00FFFFFF"
+        app:strokeColor="#4CAF50"
+        app:strokeWidth="4dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="117dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="72dp"
+        android:backgroundTint="@color/white"
+        android:backgroundTintMode="add"
+        android:text="Identify"
+        android:textColor="#8BC34A"
+        app:cornerRadius="30dp"
+        app:iconTint="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:rippleColor="#00FFFFFF"
+        app:strokeColor="#8BC34A"
+        app:strokeWidth="4dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="234dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="128dp"
+        android:gravity="center|center_vertical"
+        android:text="Capture, Select, and Identify"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.085" />
+</androidx.constraintlayout.widget.ConstraintLayout>
