@@ -25,7 +25,7 @@
         android:layout_marginTop="36dp"
         android:backgroundTint="@color/white"
         android:text="select"
-        android:textColor="#4CAF50"
+        android:textColor="#2196F3"
         app:cornerRadius="30dp"
         app:iconTint="#00FFFFFF"
         app:layout_constraintEnd_toStartOf="@+id/button2"
@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:rippleColor="#00FFFFFF"
-        app:strokeColor="#4CAF50"
+        app:strokeColor="#2196F3"
         app:strokeWidth="4dp" />
 
     <Button
@@ -45,13 +45,13 @@
         android:backgroundTint="@color/white"
         android:backgroundTintMode="add"
         android:text="Identify"
-        android:textColor="#8BC34A"
+        android:textColor="#03A9F4"
         app:cornerRadius="30dp"
         app:iconTint="#00FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:rippleColor="#00FFFFFF"
-        app:strokeColor="#8BC34A"
+        app:strokeColor="#03A9F4"
         app:strokeWidth="4dp" />
 
     <TextView
@@ -60,7 +60,7 @@
         android:layout_height="88dp"
         android:layout_marginTop="128dp"
         android:gravity="center|center_vertical"
-        android:text="Capture, Select, and Identify"
+        android:text="Select and Identify"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
