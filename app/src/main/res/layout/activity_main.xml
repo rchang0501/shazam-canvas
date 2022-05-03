@@ -11,51 +11,77 @@
         android:id="@+id/imageView"
         android:layout_width="370dp"
         android:layout_height="461dp"
+        android:elevation="100dp"
+        android:src="@drawable/ic_baseline_camera_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.484"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.072"
-        android:src="@drawable/ic_baseline_camera_24"
-        android:elevation="100dp"
-        app:tint="@color/white" />
+        app:layout_constraintVertical_bias="0.072" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="119dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="36dp"
-        android:backgroundTint="@color/white"
-        android:text="select"
-        android:textColor="#2196F3"
-        app:cornerRadius="30dp"
-        app:iconTint="#00FFFFFF"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="0.708"
+    <LinearLayout
+        android:id="@+id/buttonGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/buttonGroup2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:rippleColor="#00FFFFFF"
-        app:strokeColor="#2196F3"
-        app:strokeWidth="4dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="117dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="72dp"
-        android:backgroundTint="@color/white"
-        android:backgroundTintMode="add"
-        android:text="Identify"
-        android:textColor="#03A9F4"
-        app:cornerRadius="30dp"
-        app:iconTint="#00FFFFFF"
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_baseline_circle_24"
+            android:insetLeft="8dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            app:icon="@drawable/ic_baseline_image_24"
+            app:iconPadding="0dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Select an Image"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/buttonGroup1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:rippleColor="#00FFFFFF"
-        app:strokeColor="#03A9F4"
-        app:strokeWidth="4dp" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_baseline_circle_24"
+            android:insetLeft="8dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            app:icon="@drawable/ic_baseline_image_search_24"
+            app:iconPadding="0dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Identify the Image"/>
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView"
@@ -64,13 +90,12 @@
         android:layout_marginTop="128dp"
         android:gravity="center|center_vertical"
         android:text="Select and Identify"
-        android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="24sp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        android:textColor="@color/white"
         app:layout_constraintVertical_bias="0.085" />
 </androidx.constraintlayout.widget.ConstraintLayout>
