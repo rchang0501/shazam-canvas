@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../shazam-canvas/app/src/main/res/drawable/bkg_gradient.xml" value="0.1825" />
+        <entry key="../shazam-canvas/app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.1825" />
+        <entry key="../shazam-canvas/app/src/main/res/layout/activity_main.xml" value="0.4540557861328125" />
         <entry key="..\:/Users/ryanc/AndroidStudioProjects/ml_imgrecog/app/src/main/res/layout/activity_main.xml" value="0.25343999226562525" />
         <entry key="..\:/Users/ryanc/AndroidStudioProjects/ml_imgrecog/app/src/main/res/xml/file_paths.xml" value="0.2359375" />
       </map>
