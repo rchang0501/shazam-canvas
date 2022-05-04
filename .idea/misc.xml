@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../shazam-canvas/app/src/main/res/drawable/bkg_gradient.xml" value="0.1825" />
+        <entry key="../shazam-canvas/app/src/main/res/drawable/ic_baseline_add_to_photos_24.xml" value="0.2745" />
         <entry key="../shazam-canvas/app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.1825" />
         <entry key="../shazam-canvas/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.1" />
         <entry key="../shazam-canvas/app/src/main/res/drawable/ic_baseline_image_search_24.xml" value="0.1" />
