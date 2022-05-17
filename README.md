@@ -7,7 +7,7 @@ Image classification app built for Android powered by the Tensorflow.JS lite ML 
 
 ### Tech Stack
 **Languages**: Kotlin </br>
-**Libraries**: Tensorflow.JS, Jetpack Compose </br>
+**Libraries**: Tensorflow.JS, Jetpack </br>
 **Technologies**: Android </br>
 
 ## App Usage
